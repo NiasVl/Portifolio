@@ -723,11 +723,8 @@ body{
 }
 
 .card-project {
-    /* width: 320px; */
-    /* height: 450px; */
-
-    height: 100%;
-    width: 100%;
+     width: 320px; 
+     height: 450px; 
 
     padding: 30px 20px 20px;
     /* margin: 0px 10px; */
