@@ -766,6 +766,10 @@ body{
 
 } 
 
+.swiper-wrapper{
+    width: 105%;
+}
+
 .image-project {
     max-height: 240px;
     max-width: 250px;
