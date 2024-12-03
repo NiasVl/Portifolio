@@ -689,12 +689,12 @@ body{
     color: var(--color-white);
 }
 
-/* .wrapper-projects{
+ .wrapper-projects{
     display: flex;
     align-items: center;
     justify-content: center;
 
-} */
+}
 
 .container-projects{
     height: 100%;
@@ -756,7 +756,7 @@ body{
     z-index: -1 ;
 }
 
-/* .content-project {
+.content-project {
     height: 100%;
     width: 100%;
 
@@ -764,7 +764,7 @@ body{
     flex-direction: column;
 
 
-} */
+} 
 
 .image-project {
     max-height: 240px;
