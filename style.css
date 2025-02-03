@@ -16,6 +16,10 @@
 }
 
 html{
+    height: fit-content;
+    width: fit-content;
+
+    
     scroll-behavior: smooth;
     font-size: 10px;
     background: var(--color-black);
@@ -380,13 +384,12 @@ body{
     content: attr(data);
     position: absolute;
     top: calc(5vw + 1rem);
-    left: calc(1vw + .5rem);
-
-    width: 20px;
-    height: 20px;
-
+    left: calc(.8vw + .6rem);
+    width: fit-content;
+    height: fit-content;
     color: var(--color-white);
-    font-size: 1.25vh;
+    font-size: 2vh;
+    font-weight: 700;
 }
 
 .person-background {
@@ -540,7 +543,7 @@ body{
 
     width: 50%;
 
-    padding: 3rem;
+    padding: 3rem 0rem 1rem 0rem;
     margin: 6rem 0rem;
 }
 
@@ -566,8 +569,8 @@ body{
     display: inline-block;
 
     width: fit-content;
-    padding: 2px 4px;
     border-radius: 4px;
+    font-size: 1.7rem;
 
     color: var(--color-black);
     background: var(--color-pink);
@@ -624,6 +627,10 @@ body{
         font-size: 2rem;
     }
 
+    .box-about h3 p{
+        font-size: 1.2rem;
+    }
+
     .box-about h3{
         margin: 2rem 1rem;
     }
@@ -641,6 +648,10 @@ body{
 
     .section-subtitle p {
         font-size: 2rem;
+    }
+
+    .box-about h3 p {
+        font-size: 1.1rem;
     }
 
     .box-about h3{
@@ -769,6 +780,23 @@ body{
 .swiper-wrapper{
     width: 105%;
 }
+
+.swiper-pagination-bullet{
+    background-color: lightgrey; 
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--color-blue);
+}
+
+    .swiper-button-prev.swiper-button-disabled{
+    left: var(--swiper-navigation-sides-offset, 5px);
+    right: auto;
+}
+
+    .swiper-button-next{
+        right: 13px;
+    }
 
 .image-project {
     max-height: 240px;
